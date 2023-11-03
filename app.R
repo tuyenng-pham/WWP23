@@ -40,7 +40,7 @@ library(shinydashboard)
 
 #Import data
 read.csv(
-  "C:\\OHIO UNIVERSITY PROJECTS\\Covid_Waste Water\\R_Code 2023_2024_Report\\WW20222023.csv"
+  "data/WW20222023.csv"
 ) %>%
   select(
     sample_collect_date, sample_collect_time,
@@ -48,7 +48,7 @@ read.csv(
   ) -> WW20222023
 
 read.csv(
-  "C:\\OHIO UNIVERSITY PROJECTS\\Covid_Waste Water\\R_Code 2023_2024_Report\\WW20232024.csv"
+  "data/WW20232024.csv"
 ) %>%
   select(
     sample_collect_date, sample_collect_time,
